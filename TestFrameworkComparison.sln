@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTesting", "NUnitTesting\NUnitTesting.csproj", "{87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTesting", "XUnitTesting\XUnitTesting.csproj", "{02E62CB8-C07C-470D-9D36-869E516702D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E62CB8-C07C-470D-9D36-869E516702D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E62CB8-C07C-470D-9D36-869E516702D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E62CB8-C07C-470D-9D36-869E516702D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E62CB8-C07C-470D-9D36-869E516702D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

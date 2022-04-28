@@ -1,0 +1,29 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=84c53845_002D975b_002D465e_002Daaa7_002Dd4fde071900d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WhenResolvingDependencies&amp;lt;T&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.DependencyResolutionTesting+WhenResolvingDependencies.ShouldResolveAsSingleton&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.DependencyResolutionTesting+WhenResolvingDependencies.ShouldResolveAsTransient&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.DependencyResolutionTesting+WhenResolvingSingletons&amp;lt;Person&amp;gt;.ShouldResolveAsSingleton&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.DependencyResolutionTesting+WhenResolvingSingletons&amp;lt;Dog&amp;gt;.ShouldResolveAsSingleton&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.DependencyResolutionTesting+WhenResolvingTransients&amp;lt;Animal&amp;gt;.ShouldResolveAsTransient&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenMockingClasses.ShouldReturnRealValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenMockingInterfaces.ShouldReturnExpectedValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenMockingClasses.ShouldReturnExpectedValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenMockingVirtualClasses.ShouldReturnExpectedValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+VirtualImplementation.ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+VirtualImplementation+WhenNonSubstituted.ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+VirtualImplementation+WhenSubstituted.ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+VirtualImplementation+WhenSubstituted+WithReturn.ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+ConcreteImplementation+WhenSubstituted.ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+VirtualImplementation+WhenSubstituted.ShouldNotThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.MockTesting+WhenCatchingExpectedThrows+ConcreteImplementation+WhenNotSubstituted.ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.XUnitTestingFeatures.Repeat&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.XUnitTestingFeatures.Fact&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.XUnitTestingFeatures+Nested+Tests.ShouldStillWork&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.XUnitTestingFeatures.DemonstrateSideEffects&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.Features.SideEffects&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.Features+Paralellism.WaitOne&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87EBB5C7-A2EE-4965-90D0-E94ACF0C6DEB::net6.0::NUnitTesting.Features+Paralellism&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.XUnitTestingFeatures+Paralellism&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
