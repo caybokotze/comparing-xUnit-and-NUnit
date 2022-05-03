@@ -1,10 +1,7 @@
 ﻿using System;
-using System.IO;
-using System.Runtime.Intrinsics;
 using NExpect;
 using NSubstitute;
 using NSubstitute.ExceptionExtensions;
-using NSubstitute.ReceivedExtensions;
 using NUnit.Framework;
 using static NExpect.Expectations;
 
@@ -92,7 +89,7 @@ public class MockTesting
             // act
             var result = dependencyMock.Foo();
             // assert
-            Expect(result).To.Equal(2);
+            Expect(result).To.Equal(0);
         }
     }
     
@@ -159,6 +156,7 @@ public class MockTesting
             }
         }
 
+        [TestFixture]
         public class ConcreteImplementation
         {
             [TestFixture]
@@ -169,7 +167,6 @@ public class MockTesting
                 {
                     // arrange
                     var sut = Substitute.For<ThrowingClass>();
-                    // sut.ThrowSomeException().Throws<FileNotFoundException>();
                     // act
                     // assert
                     Expect(() => sut.ThrowSomeException()).To.Throw<SystemException>();

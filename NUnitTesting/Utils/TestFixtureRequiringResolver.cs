@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace NUnitTesting;
+namespace NUnitTesting.Utils;
 
 public class TestFixtureRequiringResolver
 {
@@ -38,19 +38,19 @@ public class TestFixtureRequiringResolver
 
                 webHost.ConfigureServices(config =>
                 {
-                    config.AddSingleton(_ => new Dog()
+                    config.AddSingleton(_ => new Dog
                     {
                         CanWalk = true,
                         Name = "Sparky"
                     });
                     
-                    config.AddSingleton(_ => new Person()
+                    config.AddSingleton(_ => new Person
                     {
-                        Name = "John",
-                        Surname = "John"
+                        Name = "Jonny",
+                        Surname = "Walker"
                     });
-
-                    config.AddTransient(_ => new Animal()
+                    
+                    config.AddTransient(_ => new Animal
                     {
                         CanWalk = true
                     });
