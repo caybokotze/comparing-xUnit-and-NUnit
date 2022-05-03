@@ -17,7 +17,7 @@ public class MockTesting
 
     public class Dependency
     {
-        public int ConfiguredValue => 3;
+        public virtual int ConfiguredValue => 3;
     }
 
     public class FooService : IFooService
@@ -63,21 +63,6 @@ public class MockTesting
             throw new SystemException();
         }
     }
-    
-    public class WhenMockingClasses
-    {
-        [Test]
-        public void ShouldReturnExpectedValues()
-        {
-            // arrange
-            var dependencyMock = Substitute.For<Dependency>();
-            var sut = Substitute.For<FooService>(dependencyMock);
-            // act
-            var result = sut.Foo();
-            // assert
-            Expect(result).To.Equal(3);
-        }
-    }
 
     public class WhenMockingInterfaces
     {
@@ -100,8 +85,12 @@ public class MockTesting
         {
             // arrange
             var sut = Substitute.For<VirtualFooService>();
+            sut.Foo().Returns(2);
             // act
             var result = sut.Foo();
+            var proxyTypeHashCode = sut.Foo().GetHashCode();
+            // var actualTypeHashCode = new VirtualFooService().Foo().GetHashCode();
+            // var actualTypeHashCode2 = new VirtualFooService().Foo().GetHashCode();
             // assert
             Expect(result).To.Equal(2);
         }
@@ -167,6 +156,7 @@ public class MockTesting
                 {
                     // arrange
                     var sut = Substitute.For<ThrowingClass>();
+                    // sut.ThrowSomeException().Returns(2);
                     // act
                     // assert
                     Expect(() => sut.ThrowSomeException()).To.Throw<SystemException>();
@@ -181,12 +171,39 @@ public class MockTesting
                 {
                     // arrange
                     var sut = new ThrowingClass();
-                    // sut.ThrowSomeException().Throws<FileNotFoundException>();
                     // act
                     // assert
                     Expect(() => sut.ThrowSomeException()).To.Throw<SystemException>();
                 }
             }
+        }
+    }
+
+    public class WhenMockingClassesWithDependencies
+    {
+        [Test]
+        public void ShouldReturnExpectedValues()
+        {
+            // arrange
+            var dependency = new Dependency();
+            var sut = Substitute.For<FooService>(dependency);
+            // act
+            var result = sut.Foo();
+            // assert
+            Expect(result).To.Equal(3);
+        }
+
+        [Test]
+        public void ShouldReturnExpectedReturnValue()
+        {
+            // arrange
+            var dependency = Substitute.For<Dependency>();
+            dependency.ConfiguredValue.Returns(5);
+            var sut = Substitute.For<FooService>(dependency);
+            // act
+            var result = sut.Foo();
+            // assert
+            Expect(result).To.Equal(5);
         }
     }
 }

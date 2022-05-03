@@ -42,6 +42,11 @@
       &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.TestingWithGenerics+WhenValueIsEqualToOrInheritsFromType&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.DependencyResolutionTests+WhenResolvingDependencies+Transient.ShouldResolveAsTransient&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.DependencyResolutionTests+WhenResolvingDependencies+Singletons&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.MockTesting+VirtualTesting+WhenSubstitutingValues.ShouldReturnExpectedValue&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.MockTesting+VirtualTesting+WhenNotSubstitutingValues.ShouldReturnExpectedValue&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.MockTesting+InterfaceTesting.ShouldReturnExpectedValue&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.MockTesting+ConcreteTesting.ShouldReturnExpectedValue&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::02E62CB8-C07C-470D-9D36-869E516702D8::net6.0::XUnitTesting.MockTesting+WhenMockingClassesWithDependencies.ShouldReturnExpectedReturnValue&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
     &lt;Project Location="C:\code\personal\TestFrameworkComparison\NUnitTesting" Presentation="&amp;lt;NUnitTesting&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;

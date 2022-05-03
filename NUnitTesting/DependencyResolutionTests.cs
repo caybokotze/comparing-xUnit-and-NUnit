@@ -5,6 +5,7 @@ using static NExpect.Expectations;
 
 namespace NUnitTesting;
 
+[TestFixture]
 public class DependencyResolutionTesting : TestFixtureRequiringResolver
 {
     [TestFixture(typeof(Person))]
