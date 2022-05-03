@@ -18,6 +18,16 @@ public class Setup
     }
 
     [Test]
+    public void ShouldEqualFour()
+    {
+        // arrange
+        
+        // act
+        // assert
+        Assert.AreEqual(4, Number);
+    }
+    
+    [Test]
     public void ShouldEqualThree()
     {
         // arrange
@@ -27,13 +37,5 @@ public class Setup
         Assert.AreEqual(3, Number);
     }
 
-    [Test]
-    public void ShouldEqualFour()
-    {
-        // arrange
-        
-        // act
-        // assert
-        Assert.AreEqual(4, Number);
-    }
+    
 }

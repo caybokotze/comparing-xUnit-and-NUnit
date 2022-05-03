@@ -36,7 +36,6 @@ public class VirtualFooService : IFooService
     }
 }
 
-
 public class MockTesting
 {
     public class VirtualTesting
